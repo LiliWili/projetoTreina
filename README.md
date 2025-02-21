@@ -62,6 +62,9 @@ cd projetoTreina/frontend
 ```sh
 npm install
 npm install react-bootstrap bootstrap
+npm install html2canvas
+npm install jspdf
+npm run dev
 
 ```
 - Isso instalará todas as bibliotecas necessárias para rodar o projeto.
