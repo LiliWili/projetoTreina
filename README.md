@@ -25,7 +25,7 @@ git clone https://github.com/liliwili/projetoTreina.git
 ```
 **2. Depois, entre na pasta do projeto clonado:**
 ```sh
-cd projetoTreina/springApi
+cd projetoTreina/backend
 ```
 **3. Configurar banco de dados**
 - Atualize o arquivo application.properties com as credenciais do seu banco de dados.
@@ -33,7 +33,8 @@ cd projetoTreina/springApi
 **4. Executar a API**
 - Agora, inicie o servidor springboot com o comando:
 ```sh
-mvnw spring-boot:run
+mvn clean install
+mvn spring-boot:run
 ```
 - A API estará disponível no endereço `http://localhost:8080/`.
 
