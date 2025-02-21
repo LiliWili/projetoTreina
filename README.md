@@ -28,7 +28,7 @@ git clone https://github.com/liliwili/projetoTreina.git
 cd projetoTreina/backend
 ```
 **3. Configurar banco de dados**
-- Atualize o arquivo application.properties com as credenciais do seu banco de dados.
+- Atualize o arquivo application.properties com as credenciais do seu banco de dados e crie um schema.
   
 **4. Executar a API**
 - Agora, inicie o servidor springboot com o comando:
